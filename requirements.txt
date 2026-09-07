@@ -44,3 +44,4 @@ tqdm>=4.66.0                      # Progress bars
 requests>=2.32.0
 # -- Groq LLM integration -----------------------------------------------------
 langchain-groq>=0.1.0
+langchain-chroma>=0.1.0
