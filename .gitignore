@@ -1,0 +1,98 @@
+# Local environment variables
+.env
+
+# Virtual environments
+.venv/
+venv/
+
+# Python cache and bytecode
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# Editor and OS files
+.vscode/
+.DS_Store
+
+# Downloads (audio/video) — ignore all but keep .gitkeep
+downloads/*
+!downloads/.gitkeep
+
+# Vector DB files — ignore all but keep .gitkeep
+vector_db/*
+!vector_db/.gitkeep
+
+# Database files
+*.sqlite3
+
+# Streamlit cache — ignore all but keep .gitkeep
+.streamlit/*
+!.streamlit/.gitkeep
+# Python
+
+**pycache**/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables / secrets
+
+.env
+.env.*
+!.env.example
+
+# Streamlit
+
+.streamlit/secrets.toml
+
+# Downloaded audio/video files
+
+downloads/*
+!downloads/.gitkeep
+
+# Vector database / generated database files
+
+vector_db/*
+!vector_db/.gitkeep
+
+# Generated files
+
+*.db
+*.sqlite
+*.sqlite3
+
+# Audio/video files
+
+*.mp3
+*.wav
+*.m4a
+*.mp4
+*.webm
+*.ogg
+*.flac
+*.aac
+
+# Logs
+
+*.log
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# IDE
+
+.vscode/
+.idea/
+
+# Jupyter
+
+.ipynb_checkpoints/
